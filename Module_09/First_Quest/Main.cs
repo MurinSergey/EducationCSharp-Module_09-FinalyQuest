@@ -1,11 +1,11 @@
-using System;
-
 namespace Module_09.First_Quest;
 
 public class Main
 {
     internal static void Run()
     {
+        Console.WriteLine("Выполняем программу первого задания");
+
         //Массив из пяти исключений
         Exception[] exceptions = [
             new NotImplementedException(),
