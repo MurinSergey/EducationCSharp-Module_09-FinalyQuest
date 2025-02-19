@@ -4,7 +4,7 @@ public class Main
 {
     internal static void Run()
     {
-        Console.WriteLine("Выполняем программу первого задания");
+        Console.WriteLine("====Выполняем программу первого задания====");
 
         //Массив из пяти исключений
         Exception[] exceptions = [
@@ -19,7 +19,6 @@ public class Main
         {
             try
             {
-                Console.WriteLine("=============================");
                 throw ex;
             }
             catch (Exception exception)
@@ -28,7 +27,7 @@ public class Main
             }
             finally
             {
-                Console.WriteLine("=============================");
+                Console.WriteLine();
             }
         }
 
